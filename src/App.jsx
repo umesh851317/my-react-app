@@ -9,7 +9,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import ReactC from './pages/React'
 import Navbar from './components/Navbar/NavBar'
-import ReactHook from './pages/ReactHook'
+import ReactHook from './pages/Hooks'
 
 function App() {
   return (
