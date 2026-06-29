@@ -9,6 +9,7 @@ import { Route, Routes } from 'react-router-dom'
 import Home from './pages/Home'
 import ReactC from './pages/React'
 import Navbar from './components/Navbar/NavBar'
+import ReactHook from './pages/ReactHook'
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Home />} />
         <Route path='/react' element={<ReactC />} />
+        <Route path='/reactHook' element={<ReactHook />} />
       </Routes>
     </>
   )

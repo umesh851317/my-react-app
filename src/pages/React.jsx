@@ -8,7 +8,7 @@ const ReactC = () => {
        const [currCompo, setCurrCompo] = useState(<Props />)
        return (
               <div>
-                     <div className='bg-green-300 flex gap-5 h-10 justify-center border h-15'>
+                     <div className='bg-green-300 flex gap-5  justify-center border h-15'>
                             <button className='border h-12 text-xl bg-gray-300 p-2 m-1' onClick={() => setCurrCompo(<Props />)}>Props</button>
                             <button className='border h-12 text-xl bg-gray-300 p-2 m-1' onClick={() => setCurrCompo(<Event />)}>Event</button>
                             <button className='border h-12 text-xl bg-gray-300 p-2 m-1' onClick={() => setCurrCompo(<State />)}>State</button>
