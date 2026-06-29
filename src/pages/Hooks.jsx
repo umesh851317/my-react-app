@@ -1,5 +1,5 @@
 import React, { useState } from 'react'
-import Props from '../components/props/parent'
+import Props from '../components/reactBasic/props/parent'
 
 const ReactHook = () => {
        const [currCompo, setCurrCompo] = useState(<Props />)

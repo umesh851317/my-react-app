@@ -1,9 +1,9 @@
 import React, { useState } from 'react'
-import Event from "../components/eventHandling/parent";
-import Props from "../components/props/parent";
-import State from "../components/State/State";
-import UseEffect from "../components/Hooks/useEffect";
-import Form from "../components/forms/form";
+import Event from "../components/reactBasic/eventHandling/parent";
+import Props from "../components/reactBasic/props/parent";
+import State from "../components/reactBasic/State/State";
+import UseEffect from "../components/reactBasic/Hooks/useEffect";
+import Form from "../components/reactBasic/forms/form";
 const ReactC = () => {
        const [currCompo, setCurrCompo] = useState(<Props />)
        return (
