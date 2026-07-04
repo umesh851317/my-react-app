@@ -10,7 +10,7 @@ const Form = () => {
        const handleChange = (e) => {
               // console.log(e.target.name);
               setForm({
-                     ...form,
+                     ...form,      
                      [e.target.name]: e.target.value
               })
        }
@@ -20,7 +20,7 @@ const Form = () => {
               console.log(form);
        };
 
-       
+
        return (
               <>
                      <form onSubmit={handleSubmit}>
@@ -42,7 +42,7 @@ const Form = () => {
                             </div>
                             <button type='submit'>submit</button>
                      </form>
-                     <UnctrlCompo/>
+                     <UnctrlCompo />
               </>
        )
 }
